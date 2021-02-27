@@ -2,7 +2,7 @@
 
 # Example of a string value.
 
-playerName = 'Player 1'
+playerName = 'Player 3'
 endGameMessage = 'Your game has ended %s .'
 
 print(endGameMessage % playerName)
@@ -12,11 +12,11 @@ print(endGameMessage % playerName)
 
 tasksTodo = ['Clean garage','Clean gutters']
 print(tasksTodo)
-
-
+tasksTodo.append('Play among us')
+print(tasksTodo)
 # When addressing an element in a List start count with Zero.
-
-print(tasksTodo[1])
+tasksTodo[2] = 'Really Play among us'
+print(tasksTodo[2])
 # %%
 #Example of Tuple
 
@@ -25,9 +25,10 @@ print(tasksTodo)
 # %%
 
 #Example of Map in other languages they are called dictionaries.
-personName = 'Angelica'
-voiceMailMessages = {'Unavailable':'Hi %s is not here. Please leave a message',
-'Available':'Hello, %s will see you shortly.'}
+personName = 'Mr. Cheese'
+voiceMailMessages = {   'Unavailable':'Hi %s is not here. Please leave a message',
+                        'Available':'Hello, %s will see you shortly.'
+                        }
 
 print(voiceMailMessages['Unavailable'] % personName)
 print(voiceMailMessages['Available'] % personName)
