@@ -39,3 +39,26 @@ print(voiceMailMessages['Available'] % personName)
 print(voiceMailMessages[0] % personName)
 
 # %%
+
+
+games = ['''Among Us''','''Legend of Zelda''','''Metroid''']
+foods = ['Strawberries','Meatloaf','Spaghetti']
+favorites = games + foods
+#favorites.sort()
+print(favorites)
+# %%
+buildings = 3
+ninjas = 25
+tunnels = 2
+samurai = 40
+
+totalCombatants = buildings*ninjas + tunnels*samurai
+print(totalCombatants)
+# %%
+firstName = 'Shawn'
+lastName = 'Sanders'
+message = 'Hi there, {1} {0}.'
+#print(string.format(message,firstName,lastName)); C#
+print(message.format( firstName,  lastName))
+
+# %%
