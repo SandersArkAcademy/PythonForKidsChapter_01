@@ -7,21 +7,22 @@ t = turtle.Pen()
 longSide = 100
 shortSide = 50
 
-t.forward(shortSide)
-t.right(90)
-t.forward(longSide)
-t.right(90)
-t.forward(shortSide)
-t.right(90)
-t.forward(longSide)
+# t.forward(shortSide)
+# t.right(90)
+# t.forward(longSide)
+# t.right(90)
+# t.forward(shortSide)
+# t.right(90)
+# t.forward(longSide)
 
 for i in range(3):
-     t.forward(longSide)
-     t.right(120)
-     t.left(20)
-     t.backward(shortSide)
+ t.forward(longSide)
+ t.right(120)
+ t.left(20) 
+ t.backward(shortSide)
 
-#      val = input("Hit enter for next example")
+#  val = input("Hit enter for next example")
+
 
 # for i in range(4):
 #     t.up()
