@@ -46,3 +46,10 @@ print(message.format ( firstname, middlename, lastname))
 # %%
 
 # %%
+favorite_sports = {'Ralph Williams': 'Footbal',
+                'Micheal Tippett': 'Basketball',
+                'Edward Elgar': 'Baseball'
+}
+
+print(favorite_sports)
+# %%
