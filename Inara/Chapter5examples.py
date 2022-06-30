@@ -1,4 +1,4 @@
- money = 2000
+money = 2000
 if money > 1000:
     print("I'm rich! !")
 else:
