@@ -42,7 +42,7 @@ middlename = 'Inara'
 lastname = 'Sanders'
 message = 'Hi there, my name is {0} {1} {2}.'
 
-print(message.format ( firstname, middlename, lastname))
+print(message.format ( firstname, middlename, lastname)) 
 # %%
 
 # %%
