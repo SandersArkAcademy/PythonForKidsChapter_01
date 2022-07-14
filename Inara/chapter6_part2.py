@@ -75,7 +75,7 @@ for i in range(0,5):
 # %%
 OGearth_weight = 38.6
 for year in range(0,15):
-    earth_weight = OGearth_weight + year
+    earth_weight = OGearth_weight + (year * 1)
     moon_weight = earth_weight * 0.165
     print('Year:%s Earth weight: %sKg Moon weight:%sKg' %(year +1,earth_weight,moon_weight))
 # %%
