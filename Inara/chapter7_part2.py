@@ -73,4 +73,3 @@ def silly_age_joke():
 
 # it fails to load the cell again
 # %%
-# I cannot complete the puzzles because the program cannot load the code
