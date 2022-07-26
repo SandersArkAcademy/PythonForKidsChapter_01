@@ -118,6 +118,7 @@ test_file.write('What is green and loud? A froghorn!')
 test_file.close()
 test_file = open('./test.txt', 'r')
 text5 = test_file.read()
+#text5.split(' ')
 print(text5)
 test_file.close()
 # %%
