@@ -1,6 +1,7 @@
 from doctest import testfile
 import numbers
 from operator import le
+from posixpath import split
 
 
 print(abs(10))
@@ -121,4 +122,24 @@ text5 = test_file.read()
 #text5.split(' ')
 print(text5)
 test_file.close()
+# %%
+a = abs(10) + abs(-10)
+print(a)
+b = abs(-10) + -10
+print(b)
+# a will equal twenty
+# b will equal zero
+# %%
+hidden_message = "this if is you not are a reading very this good then way you to have hide done a it message wrong"
+message_list = hidden_message.split(' ')
+for i in range(0,len( message_list)):
+    if i %2 == 0:
+        print(message_list[i])
+# %%
+copy_reader = open('./test.txt','r')
+copy_writer = open('./test_copy.txt','w')
+text_to_copy = copy_reader.read()
+copy_reader.close()
+copy_writer.write(text_to_copy)
+copy_writer.close()
 # %%
