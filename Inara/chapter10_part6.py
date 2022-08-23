@@ -4,7 +4,7 @@ favorite_things_file = open('favorites.dat', 'wb')
 pickle.dump(favorite_things, favorite_things_file)
 favorite_things_file.close()
 
-load_file = open('favorite_things_file', 'rb')
+load_file = open('favorites.dat', 'rb')
 loaded_favorite_things = pickle.load(load_file)
 load_file.close
 print(loaded_favorite_things)
