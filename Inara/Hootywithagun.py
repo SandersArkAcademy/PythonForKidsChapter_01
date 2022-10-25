@@ -1,0 +1,126 @@
+import turtle
+
+turt = turtle.Pen()
+
+turt.speed(0)
+
+print("Hooty with a gun")
+turt.up()
+turt.right(90)
+turt.forward(160)
+turt.down()
+
+turt.left(90)
+turt.forward(90)
+
+turt.right(90)
+turt.forward(15)
+turt.right(90)
+turt.forward(1)
+turt.right(90)
+turt.forward(15)
+turt.left(90)
+turt.forward(1)
+turt.left(90)
+turt.forward(15)
+turt.right(90)
+turt.forward(1)
+
+for x in range(0, 43):
+    turt.right(90)
+    turt.forward(15)
+    turt.left(90)
+    turt.forward(1)
+    turt.left(90)
+    turt.forward(15)
+    turt.right(90)
+    turt.forward(1)
+
+
+turt.right(90)
+turt.forward(15)
+turt.left(90)
+turt.forward(1)
+turt.left(90)
+turt.forward(15)
+turt.right(180)
+turt.forward(15)
+turt.right(90)
+turt.forward(90)
+
+turt.up()
+turt.left(90)
+turt.forward(1)
+turt.right(90)
+turt.down()
+
+turt.forward(60)
+turt.left(90)
+turt.forward(15)
+turt.left(90)
+turt.forward(1)
+turt.left(90)
+turt.forward(15)
+turt.right(90)
+turt.forward(1)
+turt.right(90)
+turt.forward(15)
+turt.left(90)
+turt.forward(1)
+turt.left(90)
+turt.forward(15)
+turt.right(90)
+turt.forward(1)
+
+for x in range(0, 28):
+    turt.right(90)
+    turt.forward(15)
+    turt.left(90)
+    turt.forward(1)
+    turt.left(90)
+    turt.forward(15)
+    turt.right(90)
+    turt.forward(1)
+
+
+turt.right(90)
+turt.forward(15)
+turt.right(90)
+turt.forward(60)
+
+val = input("Hit enter for next step")
+turt.up()
+turt.left(90)
+turt.forward(1)
+turt.right(90)
+turt.down()
+
+turt.forward(40)
+turt.left(90)
+turt.forward(15)
+turt.left(90)
+turt.forward(1)
+turt.left(90)
+turt.forward(15)
+turt.right(90)
+turt.forward(1)
+
+for x in range(0, 19):
+    turt.right(90)
+    turt.forward(15)
+    turt.left(90)
+    turt.forward(1)
+    turt.left(90)
+    turt.forward(15)
+    turt.right(90)
+    turt.forward(1)
+
+
+turt.right(90)
+turt.forward(15)
+turt.right(90)
+turt.forward(40)
+
+val = input("Hit enter for next step")
+
+val = input("Hit enter to end program")

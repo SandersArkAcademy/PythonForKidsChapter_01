@@ -58,3 +58,8 @@ found_coins+magic_coins*365-stolen_coins*52
 # %%
 
 # %%
+PI = 3.14
+radius = 4
+area = PI * radius**2
+print(area)
+# %%
